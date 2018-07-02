@@ -1,0 +1,104 @@
+.svg_contact {
+    width: 36px;
+}
+
+input, textarea {
+    border: solid 1px $color-contrast;
+    background: none; 
+}
+
+form {
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    .mobile {
+        margin-left: 20px;
+
+        @media screen and (min-width: $small-small) {
+            margin-left: 0;   
+        }
+    }
+
+    @media screen and (min-width: $x-large) {
+        width: 500px;   
+    } 
+
+    @media screen and (min-width: $large) {
+        width: 500px;   
+    } 
+
+    @media screen and (min-width: $medium) {
+        width: 500px;   
+    }
+
+}
+form p {
+    color: $color-white;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.info div {
+    margin-top: 100px;
+    display: inline-flex;
+    flex-direction: column;
+
+}
+.info input {
+    width: 250px;
+    padding: 10px 15px;
+    margin-bottom: 50px;
+}
+
+input::placeholder {
+    color: $color-white;
+    font-size: 15px;
+}
+
+.header-contact {
+    width: 500px;
+    display: -webkit-inline-box;
+    flex-direction: row;
+
+    @media screen and (min-width: $small-small) {
+        flex-direction: column;   
+    }
+
+    @media screen and (min-width: $x-large) {
+        flex-direction: row; 
+        width: 500px;  
+    }
+}
+
+textarea::placeholder {
+    color: $color-white;
+    font-size: 15px;
+}
+textarea {
+    padding: 6px 15px;
+    height: 120px;
+    margin-left: 15px;
+
+    @media screen and (min-width: $small-small) {
+        margin-left: 0;   
+    }
+
+    @media screen and (min-width: $small) {
+        margin-left: 15px;   
+    }
+
+}
+
+.btn-submit input{
+    width: 100%;
+    background-color: $color-contrast;
+    color: $color-base;
+    font-weight: 900;
+    padding: 10px 0;
+    font-size: 18px;
+
+    @media screen and (min-width: $small-small) {
+        margin-top: 15px;   
+    }
+}

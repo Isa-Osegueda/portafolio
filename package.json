@@ -1,0 +1,44 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "Base environment for static site development",
+  "scripts": {
+    "dev": "gulp dev",
+    "styleguide": "gulp styleguide",
+    "build": "gulp build",
+    "clean": "gulp clean"
+  },
+  "author": "Andrés Díaz Soto <andres.diaz.soto@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-preset-env": "^1.6.1",
+    "del": "^3.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-jquery": "^1.0.1",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eyeglass": "^1.4.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-cli": "^1.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-install": "^1.1.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "kss": "^3.0.0-beta.18"
+  },
+  "dependencies": {
+    "gulp-jquery": "^1.1.2",
+    "jquery": "^3.3.1"
+  }
+}

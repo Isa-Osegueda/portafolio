@@ -1,0 +1,27 @@
+.socialmedia-contact {
+    width: 80px;
+    display: flex;
+    margin: 0 auto;
+
+    a {
+        width: 20px;
+    }
+}
+
+.socialmedia-contact::before { 
+    content: "";
+    border: 1px solid $color-contrast;
+    right: 100%;
+    margin-right: 15px;
+    
+    
+}
+.socialmedia-contact::after { 
+    content: "";
+    border: 1px solid $color-contrast;
+    
+    top: 0;
+    right: 100%;
+    margin-left: 15px;
+    
+}

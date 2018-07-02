@@ -1,0 +1,56 @@
+.flex-container {
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: space-between; 
+
+    @media screen and (min-width: $x-large) {
+        width: 600px;   
+    } 
+
+    @media screen and (min-width: $large) {
+        width: 600px;   
+    } 
+
+    @media screen and (min-width: $medium) {
+        width: 600px;   
+    }
+    
+    @media screen and (min-width: $large) {
+        margin-top: 100px;  
+    } 
+
+    img {
+        margin: 20px;
+        width: 80px;
+
+        @media screen and (min-width: $x-large) {
+            width: 100px; 
+            margin: 20px;   
+        } 
+
+        @media screen and (min-width: $large) {
+            width: 100px; 
+            margin: 20px;   
+        } 
+
+        @media screen and (min-width: $medium) {
+            width: 100px; 
+            margin: 20px;   
+        } 
+    }
+}
+
+.flex-item {
+    padding: 5px;
+    margin-top: 10px;
+    flex: none;
+}

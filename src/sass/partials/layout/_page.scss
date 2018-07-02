@@ -1,0 +1,46 @@
+.l-content {
+  margin: 0 auto;
+  width: 65%;
+}
+
+.l-group {
+  @include micro-clearfix;
+}
+
+.group {
+  @include micro-clearfix;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.bg-hero {
+  background-image: url('../img/hero-home.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: transparent;
+  color: #fff;
+  height: 40rem;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  background-color: $color-base;
+  .opacity {
+    background-color: $color-opacity;
+    height: 100vh;
+  } 
+  .opacity-home {
+    background-color: $color-opacity-home;
+    height: 100vh;
+  }
+}
+
+
+

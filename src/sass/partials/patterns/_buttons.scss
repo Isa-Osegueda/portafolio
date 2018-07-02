@@ -1,0 +1,30 @@
+/*.btn {
+
+}*/
+
+.btn--principal {
+    background-color:$color-contrast;
+
+    &:hover {
+        background-color:$color-hover;
+    }
+}
+
+.btn--secundary {
+    background-color:$color-contrast;
+
+    &:hover {
+        background-color:$color-hover;
+    }
+}
+
+/*.btn--small {
+    
+}
+
+.btn--invert {
+
+    &:hover {
+       
+    }
+}*/

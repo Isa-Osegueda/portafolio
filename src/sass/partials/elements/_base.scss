@@ -1,0 +1,104 @@
+*,
+*:before, 
+*:after {
+    box-sizing: border-box;
+}
+
+// Reset esta basados en:
+// https://github.com/necolas/normalize.css
+// https://github.com/google/material-design-lite/tree/mdl-1.x/src/resets
+
+// Normalize
+// ==========================================================================
+// 1. Change the default font family in all browsers (opinionated).
+// 2. Correct the line height in all browsers.
+// 3. Prevent adjustments of font size after orientation changes in
+//    IE on Windows Phone and in iOS.
+html {
+    font: 1em/1.5 $font-family-base; // 1
+    width: 100%;
+    height: 100%;
+    background-color: $color-base;
+    -ms-text-size-adjust: 100%; // 3
+    -webkit-text-size-adjust: 100%; // 3
+    overflow-x: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+// Remove the margin in all browsers (opinionated).
+body {
+    background-color: $color-base;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+// Remove text-shadow in selection highlight:
+// https://twitter.com/miketaylr/status/12228805301
+// These selection rule sets have to be separate.
+// Customize the background color to match your design.
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+// Add the correct display in IE 9-.
+article,
+aside,
+footer,
+header,
+nav,
+section,
+figcaption,
+figure,
+main,
+details,
+menu {
+    display: block;
+}
+
+// Add the correct margin in IE 8.
+figure {
+    margin: 1em 40px;
+}
+
+// Add the correct display in all browsers.
+summary {
+    display: list-item;
+}
+
+// Add the correct display in IE 9-.
+canvas {
+    display: inline-block;
+}
+
+// Add the correct display in IE.
+template {
+    display: none;
+}
+
+.limiter {
+    max-width: 1280px;
+    margin: 0 auto;
+    @media screen and (min-width: $small) {
+        max-width: $small;
+    }
+    @media screen and (min-width: $medium) {
+        max-width: $medium;
+    }
+    @media screen and (min-width: $large) {
+        max-width: $large;
+    }
+    @media screen and (min-width: $x-large) {
+        max-width: $x-large;
+    }
+}
+
+img {
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+}
+

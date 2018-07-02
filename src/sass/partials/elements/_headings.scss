@@ -1,0 +1,58 @@
+// Normalize
+// ==========================================================================
+// Correct the font size and margin on `h1` elements within `section` and
+// `article` contexts in Chrome, Firefox, and Safari.
+h1 {
+  font-size: 30px;
+  margin: 15px 0 0 0;
+  text-align: center;
+
+  @media screen and (min-width: $x-large) {
+    font-size: 50px;   
+  } 
+  @media screen and (min-width: $large) {
+    font-size: 50px;   
+  } 
+  @media screen and (min-width: $medium) {
+    font-size: 50px;   
+  } 
+}
+
+h2 {
+  font-size:30px;
+}
+
+h3 {
+  font-size:15px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #f7f7f7;
+  font-family: $font-family-contrast;
+}
+
+
+.h-section {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.h-page {
+    color: inherit;
+    text-align: center;
+    text-shadow: 0 0 2px rgba(0, 0, 0, .25);
+    text-transform: uppercase;
+}
+
+.title-page {
+  margin: 0 auto;
+  hr {
+    border: 1px solid $color-contrast;
+    margin: 0 auto;
+    width: 6% 
+  }
+}
+

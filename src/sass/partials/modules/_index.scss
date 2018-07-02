@@ -1,0 +1,30 @@
+.greeting {
+  position: absolute;
+  top: 30%;
+  color: $color-white;
+  margin-left: 20px;  
+
+  p {
+    font-size: 15px;
+  }
+
+@media screen and (min-width: $large) {
+   h1 {
+     font-size: 50px;
+   } 
+   margin-left: 150px;
+ }
+ @media screen and (min-width: $x-large) {
+    h1 {
+      font-size: 50px;
+    } 
+ 
+    margin-left: 150px
+  }
+}
+
+
+
+   
+
+

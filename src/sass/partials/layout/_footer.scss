@@ -1,0 +1,44 @@
+ .principal-social-media {
+    width: 50%;
+    bottom: 0;
+    margin: 25px 20px; 
+    position: absolute;
+    .icon-linkedin {
+        stroke-width: 17px;
+        margin-left: 5px;
+    }
+
+     svg {
+         stroke: $color-white;
+         stroke-width: 10px;
+         width: 12%;
+         margin: 5px;        
+         -webkit-transition: all 200ms ease-in;
+         -ms-transition: all 200ms ease-in;
+         -moz-transition: all 200ms ease-in;
+         transition: all 200ms ease-in; 
+           
+         &:hover {
+             width:6%;
+             stroke:$color-hover;
+        }   
+    }
+
+         
+    @media screen and (min-width: $x-large) {
+        margin-left: 50px;     
+    }     
+    @media screen and (min-width: $x-large) {
+        svg {
+            width: 5%;
+        }  
+    }   
+    @media screen and (min-width: $large) {
+        margin-left: 50px;     
+    }     
+    @media screen and (min-width: $large) {
+        svg {
+            width: 5%;
+        }  
+    }   
+}
